@@ -3,21 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase_2;
+package Paquete2;
 
 /**
  *
  * @author Usuario
  */
-public class Precio {
-     double euros;
-
-    public double obtener() {
-        return 0;
+public class Principal {
+    public static void main(String[] args) {
+     clase_2.Precio p = new clase_2.Precio();
+     p.agregar(20.2);
+        System.out.println(p.obtener());
+     
     }
-
-    public void agregar(double x) {
-        euros = x;
-    }
-    
 }

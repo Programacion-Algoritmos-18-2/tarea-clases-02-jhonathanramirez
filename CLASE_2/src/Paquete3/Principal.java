@@ -3,21 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase_2;
+package Paquete3;
 
 /**
  *
  * @author Usuario
  */
-public class PRINCIPAL {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public class Principal {
+     public static void main(String[] args) {
      Precio p = new Precio();
-     p.agregar(10.1);
-        System.out.println(p.euros);
+     Precio p2 = new Precio(259);
+        System.out.println(p.obtener());
+        System.out.println(p2.obtener());
+     
     }
-    
 }

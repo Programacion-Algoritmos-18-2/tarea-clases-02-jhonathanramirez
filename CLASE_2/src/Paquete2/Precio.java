@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase_2;
+package Paquete2;
 
 /**
  *
  * @author Usuario
  */
 public class Precio {
-     double euros;
+     private double euros;
 
     public double obtener() {
-        return 0;
+        return euros;
     }
 
     public void agregar(double x) {
